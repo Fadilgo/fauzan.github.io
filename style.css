@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,7 @@ body {
   background: linear-gradient(#8b016a, #6f1159);
   overflow-x: hidden;
   z-index: -3;
+  font-family: "Playfair Display", serif;
 }
 #header {
   position: absolute;
@@ -96,6 +99,7 @@ section img#stars2 {
   color: #fff;
   font-weight: 400;
   margin-top: 40px;
+  font-family: "Inconsolata", monospace;
 }
 .kotak {
   justify-content: center;
@@ -253,6 +257,7 @@ section img#stars2 {
   }
   p {
     margin-top: 30px;
+    font-family: "Inconsolata", monospace;
   }
   .anime {
     display: block;
