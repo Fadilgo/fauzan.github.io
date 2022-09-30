@@ -7,6 +7,7 @@
 body {
   background: linear-gradient(#8b016a, #6f1159);
   overflow-x: hidden;
+  z-index: -3;
 }
 #header {
   position: absolute;
@@ -70,7 +71,7 @@ section img#masjid {
 section img#stars2 {
   display: none;
 }
-#text {
+/*#text {
   position: absolute;
   top: 50%;
   right: -100%;
@@ -79,7 +80,7 @@ section img#stars2 {
   font-size: 10vw;
   white-space: nowrap;
   text-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
-}
+}*/
 .sec {
   position: relative;
   padding: 100px;
@@ -188,7 +189,11 @@ section img#stars2 {
   border-radius: 20px;
   z-index: 1;
 }
-@media (max-width: 992px) {
+@media (max-width: 1132px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
   #header {
     padding: 20px;
   }
@@ -253,6 +258,7 @@ section img#stars2 {
     display: block;
     margin-top: 5px;
     padding-right: 10px;
+    width: 100%;
   }
   .anime img {
     width: 100%;
